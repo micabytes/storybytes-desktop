@@ -26,8 +26,7 @@ To run the application (will build it, if not yet built)
 Use the `bat` file on windows.
 
 To run this with your own Ink files, place your ink file in the "resource/ink" directory, and change the path in line 13 of
-the StoryViewModel.kt file to reference your file. The story will then start up with your Ink story (within the limitations
-of the [mica-ink](https://github.com/micabytes/mica-ink) engine).
+the StoryViewModel.kt file to reference your file. The story will then start up with your Ink story.
 
 ## License
 
