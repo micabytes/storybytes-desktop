@@ -1,14 +1,9 @@
 package com.micabytes.storybytes
 
 import com.bladecoder.ink.runtime.Story
-import tornadofx.*
-import java.io.InputStream
-import com.sun.xml.internal.ws.streaming.XMLStreamReaderUtil.close
-import jdk.nashorn.internal.runtime.ScriptingFunctions.readLine
-import java.io.InputStreamReader
+import tornadofx.ViewModel
 import java.io.BufferedReader
-import java.nio.Buffer
-
+import java.io.InputStreamReader
 
 class BladeViewModel(fileName: String) : ViewModel() {
   private val story: Story

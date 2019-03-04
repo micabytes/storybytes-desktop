@@ -9,8 +9,10 @@ import javafx.scene.text.Font
 import javafx.scene.text.TextFlow
 import tornadofx.*
 
+const val FILENAME = "ink/cloak-of-darkness.ink.json"
+
 class BladeViewer : Fragment("Story Viewer") {
-  private var story: BladeViewModel = BladeViewModel("ink/cloak-of-darkness.ink.json")
+  private var story: BladeViewModel = BladeViewModel(FILENAME)
   override val root = BorderPane()
 
   init {

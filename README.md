@@ -1,13 +1,12 @@
 # storybytes-desktop
 
-Desktop version of the StoryBytes story viewer for [mica-ink](https://github.com/micabytes/mica-ink).
+StoryBytes is a simple viewer for [Ink]() scripts; [storybytes-desktop](https://github.com/micabytes/storybytes-desktop) is a simple desktop application built using Kotlin and [TornadoFX](https://github.com/edvin/tornadofx).
 
-This is an extremely simple application built using Kotlin and [TornadoFX](https://github.com/edvin/tornadofx).
+StoryBytes was originally developed as a very simple demo for [mica-ink](https://github.com/micabytes/mica-ink); the current version is built to use [blade-ink](https://github.com/bladecoder/blade-ink) which I recommend for Java development with Ink.
 
 ## Roadmap
 
-I basically built this just to play around a bit with TornadoFX, so at present there are no specific plans. I might try to make it
-a desktop version of the StoryBytes android app at some point (i.e., a generic Ink player) but there is no ETA on that.
+I basically built this just to play around a bit with TornadoFX, so at present there are no specific plans. I might try to make it a desktop version of the StoryBytes android app at some point (i.e., a generic Ink player with file loading, etc) but there is no ETA on that.
 
 ## Building
 
@@ -25,11 +24,8 @@ To run the application (will build it, if not yet built)
 ```
 Use the `bat` file on windows.
 
-To run this with your own Ink files, place your ink file in the "resource/ink" directory, and change the path in line 13 of
-the StoryViewModel.kt file to reference your file. The story will then start up with your Ink story (within the limitations
-of the [mica-ink](https://github.com/micabytes/mica-ink) engine).
+To run this with your own Ink files, place your ink file in the "resource/ink" directory, and change the constant FILENAME in the BladeViewer.kt file to reference your file. The app will then start up with your Ink story.
 
 ## License
 
-Currently set to the MIT license, but I'll have to take a look at it at some point (it may be a bit restrictive). Ping me if
-you want to use the code for something.
+Currently set to the MIT license, but I'll have to take a look at it at some point (it may be a bit restrictive). Ping me if you want to use the code for something.
